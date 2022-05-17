@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minhas anotações📝</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e59a54b812.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="topo">
+         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#273036" fill-opacity="0.2" d="M0,96L48,96C96,96,192,96,288,128C384,160,480,224,576,234.7C672,245,768,203,864,192C960,181,1056,203,1152,192C1248,181,1344,139,1392,117.3L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+
+    </div>
+    <div class="nome">
+        <h1>Minhas anotações📝</h1>
+    </div>
+<div class="container">
+    
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div class="textos">
+                        <p>Nova nota</p>
+                        <input type="text" name="titulo" id="titulo" placeholder="Insira um título bonito! 😍">
+                        <input type="text" name="conteudo" id="conteudo" placeholder="Insira o conteúdo legal 😊">
+                    </div>
+
+                    <div class="form_action--button">
+                        <i class="fa-regular fa-pen-to-square"></i>
+                        <input type="submit" value="Enviar"> 
+                        <i class="fa-solid fa-trash"></i>
+                        <input type="reset" value="Apagar">
+                    </div>
+                </form>
+            </td>
+        </tr>
+    </table>
+
+    <table class="list" id="notas">
+        <thead>
+            <tr>
+                <th>Titulo</th>
+                <th>Conteúdo</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+</div>
+
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>

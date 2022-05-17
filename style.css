@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    color: #3f3f3f;
+    padding: 50px;
+    text-align: center;
+}
+
+table {
+    width: 50%;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border: none;
+}
+
+table.list {
+    text-align: center;
+    width: 50%;
+    padding: 20px;
+}
+
+td {
+    border: 1px solid rgb(158, 158, 158);
+    text-align: left;
+    padding: 8px 15px;
+    border: none;
+}
+
+tr:nth-child(even),
+table.list thread>tr {
+    background-color: rgb(221, 221, 221);
+}
+
+input[type="text"] {
+    width: 95%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-style: none;
+    background-color: none;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background: #eee;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: rgb(192, 192, 192);
+}
+
+input[type="reset"]:hover {
+    background: rgb(192, 192, 192);
+}
+
+button {
+    background: #eee;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background: rgb(192, 192, 192);
+}
+
+.topo {
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+}
+
+p {
+    font-size: large;
+    padding: 10px;
+}
+
+.container {
+    padding-top: 50px;
+}
+
+.form_action--button i {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.button-interno {
+    width: 150px;
+    margin-left: 10%;
+}
